@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7F646F269F7060006F6CA1 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F646E269F7060006F6CA1 /* InitialViewController.swift */; };
+		3B484445228C7704008F28E6 /* StavkaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B484444228C7704008F28E6 /* StavkaTableViewCell.swift */; };
+		3B484447228C90E0008F28E6 /* SmetkaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B484446228C90E0008F28E6 /* SmetkaViewController.swift */; };
 		7C08CE762289C4FE00971D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08CE752289C4FE00971D3F /* AppDelegate.swift */; };
 		7C08CE782289C4FE00971D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08CE772289C4FE00971D3F /* ViewController.swift */; };
 		7C08CE7B2289C4FE00971D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C08CE792289C4FE00971D3F /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		7C08CE802289C4FE00971D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C08CE7E2289C4FE00971D3F /* LaunchScreen.storyboard */; };
 		7C08CE8B2289C4FE00971D3F /* _caTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08CE8A2289C4FE00971D3F /* _caTests.swift */; };
 		7C08CE962289C4FE00971D3F /* _caUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08CE952289C4FE00971D3F /* _caUITests.swift */; };
+		7C08CEA72289C55100971D3F /* Stavka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08CEA62289C55100971D3F /* Stavka.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C08CE722289C4FE00971D3F /* 7ca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7ca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7F646E269F7060006F6CA1 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		3B484444228C7704008F28E6 /* StavkaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StavkaTableViewCell.swift; sourceTree = "<group>"; };
+		3B484446228C90E0008F28E6 /* SmetkaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmetkaViewController.swift; sourceTree = "<group>"; };
+		7C08CE722289C4FE00971D3F /* OrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C08CE752289C4FE00971D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C08CE772289C4FE00971D3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C08CE7A2289C4FE00971D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C08CE7C2289C4FE00971D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C08CE7F2289C4FE00971D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C08CE812289C4FE00971D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C08CE862289C4FE00971D3F /* 7caTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 7caTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C08CE862289C4FE00971D3F /* OrderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C08CE8A2289C4FE00971D3F /* _caTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _caTests.swift; sourceTree = "<group>"; };
 		7C08CE8C2289C4FE00971D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C08CE912289C4FE00971D3F /* 7caUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 7caUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C08CE912289C4FE00971D3F /* OrderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C08CE952289C4FE00971D3F /* _caUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _caUITests.swift; sourceTree = "<group>"; };
 		7C08CE972289C4FE00971D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C08CEA62289C55100971D3F /* Stavka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stavka.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +85,7 @@
 		7C08CE692289C4FE00971D3F = {
 			isa = PBXGroup;
 			children = (
-				7C08CE742289C4FE00971D3F /* 7ca */,
+				7C08CE742289C4FE00971D3F /* OrderApp */,
 				7C08CE892289C4FE00971D3F /* 7caTests */,
 				7C08CE942289C4FE00971D3F /* 7caUITests */,
 				7C08CE732289C4FE00971D3F /* Products */,
@@ -87,24 +95,28 @@
 		7C08CE732289C4FE00971D3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C08CE722289C4FE00971D3F /* 7ca.app */,
-				7C08CE862289C4FE00971D3F /* 7caTests.xctest */,
-				7C08CE912289C4FE00971D3F /* 7caUITests.xctest */,
+				7C08CE722289C4FE00971D3F /* OrderApp.app */,
+				7C08CE862289C4FE00971D3F /* OrderAppTests.xctest */,
+				7C08CE912289C4FE00971D3F /* OrderAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C08CE742289C4FE00971D3F /* 7ca */ = {
+		7C08CE742289C4FE00971D3F /* OrderApp */ = {
 			isa = PBXGroup;
 			children = (
 				7C08CE752289C4FE00971D3F /* AppDelegate.swift */,
+				3B484446228C90E0008F28E6 /* SmetkaViewController.swift */,
+				7C08CEA62289C55100971D3F /* Stavka.swift */,
 				7C08CE772289C4FE00971D3F /* ViewController.swift */,
+				2C7F646E269F7060006F6CA1 /* InitialViewController.swift */,
 				7C08CE792289C4FE00971D3F /* Main.storyboard */,
 				7C08CE7C2289C4FE00971D3F /* Assets.xcassets */,
 				7C08CE7E2289C4FE00971D3F /* LaunchScreen.storyboard */,
 				7C08CE812289C4FE00971D3F /* Info.plist */,
+				3B484444228C7704008F28E6 /* StavkaTableViewCell.swift */,
 			);
-			path = 7ca;
+			path = OrderApp;
 			sourceTree = "<group>";
 		};
 		7C08CE892289C4FE00971D3F /* 7caTests */ = {
@@ -113,7 +125,8 @@
 				7C08CE8A2289C4FE00971D3F /* _caTests.swift */,
 				7C08CE8C2289C4FE00971D3F /* Info.plist */,
 			);
-			path = 7caTests;
+			name = 7caTests;
+			path = OrderAppTests;
 			sourceTree = "<group>";
 		};
 		7C08CE942289C4FE00971D3F /* 7caUITests */ = {
@@ -122,15 +135,16 @@
 				7C08CE952289C4FE00971D3F /* _caUITests.swift */,
 				7C08CE972289C4FE00971D3F /* Info.plist */,
 			);
-			path = 7caUITests;
+			name = 7caUITests;
+			path = OrderAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C08CE712289C4FE00971D3F /* 7ca */ = {
+		7C08CE712289C4FE00971D3F /* OrderApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C08CE9A2289C4FE00971D3F /* Build configuration list for PBXNativeTarget "7ca" */;
+			buildConfigurationList = 7C08CE9A2289C4FE00971D3F /* Build configuration list for PBXNativeTarget "OrderApp" */;
 			buildPhases = (
 				7C08CE6E2289C4FE00971D3F /* Sources */,
 				7C08CE6F2289C4FE00971D3F /* Frameworks */,
@@ -140,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = 7ca;
+			name = OrderApp;
 			productName = 7ca;
-			productReference = 7C08CE722289C4FE00971D3F /* 7ca.app */;
+			productReference = 7C08CE722289C4FE00971D3F /* OrderApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7C08CE852289C4FE00971D3F /* 7caTests */ = {
+		7C08CE852289C4FE00971D3F /* OrderAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C08CE9D2289C4FE00971D3F /* Build configuration list for PBXNativeTarget "7caTests" */;
+			buildConfigurationList = 7C08CE9D2289C4FE00971D3F /* Build configuration list for PBXNativeTarget "OrderAppTests" */;
 			buildPhases = (
 				7C08CE822289C4FE00971D3F /* Sources */,
 				7C08CE832289C4FE00971D3F /* Frameworks */,
@@ -158,14 +172,14 @@
 			dependencies = (
 				7C08CE882289C4FE00971D3F /* PBXTargetDependency */,
 			);
-			name = 7caTests;
+			name = OrderAppTests;
 			productName = 7caTests;
-			productReference = 7C08CE862289C4FE00971D3F /* 7caTests.xctest */;
+			productReference = 7C08CE862289C4FE00971D3F /* OrderAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7C08CE902289C4FE00971D3F /* 7caUITests */ = {
+		7C08CE902289C4FE00971D3F /* OrderAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C08CEA02289C4FE00971D3F /* Build configuration list for PBXNativeTarget "7caUITests" */;
+			buildConfigurationList = 7C08CEA02289C4FE00971D3F /* Build configuration list for PBXNativeTarget "OrderAppUITests" */;
 			buildPhases = (
 				7C08CE8D2289C4FE00971D3F /* Sources */,
 				7C08CE8E2289C4FE00971D3F /* Frameworks */,
@@ -176,9 +190,9 @@
 			dependencies = (
 				7C08CE932289C4FE00971D3F /* PBXTargetDependency */,
 			);
-			name = 7caUITests;
+			name = OrderAppUITests;
 			productName = 7caUITests;
-			productReference = 7C08CE912289C4FE00971D3F /* 7caUITests.xctest */;
+			productReference = 7C08CE912289C4FE00971D3F /* OrderAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +207,7 @@
 				TargetAttributes = {
 					7C08CE712289C4FE00971D3F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					7C08CE852289C4FE00971D3F = {
@@ -207,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C08CE6D2289C4FE00971D3F /* Build configuration list for PBXProject "7ca" */;
+			buildConfigurationList = 7C08CE6D2289C4FE00971D3F /* Build configuration list for PBXProject "OrderApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C08CE712289C4FE00971D3F /* 7ca */,
-				7C08CE852289C4FE00971D3F /* 7caTests */,
-				7C08CE902289C4FE00971D3F /* 7caUITests */,
+				7C08CE712289C4FE00971D3F /* OrderApp */,
+				7C08CE852289C4FE00971D3F /* OrderAppTests */,
+				7C08CE902289C4FE00971D3F /* OrderAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C08CE782289C4FE00971D3F /* ViewController.swift in Sources */,
+				3B484445228C7704008F28E6 /* StavkaTableViewCell.swift in Sources */,
 				7C08CE762289C4FE00971D3F /* AppDelegate.swift in Sources */,
+				2C7F646F269F7060006F6CA1 /* InitialViewController.swift in Sources */,
+				7C08CEA72289C55100971D3F /* Stavka.swift in Sources */,
+				3B484447228C90E0008F28E6 /* SmetkaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		7C08CE882289C4FE00971D3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7C08CE712289C4FE00971D3F /* 7ca */;
+			target = 7C08CE712289C4FE00971D3F /* OrderApp */;
 			targetProxy = 7C08CE872289C4FE00971D3F /* PBXContainerItemProxy */;
 		};
 		7C08CE932289C4FE00971D3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7C08CE712289C4FE00971D3F /* 7ca */;
+			target = 7C08CE712289C4FE00971D3F /* OrderApp */;
 			targetProxy = 7C08CE922289C4FE00971D3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,11 +445,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = 7ca/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OrderApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CodeWell.-ca";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,8 +461,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = 7ca/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OrderApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CodeWell.-ca";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7ca.app/7ca";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrderApp.app/OrderApp";
 			};
 			name = Debug;
 		};
@@ -478,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7ca.app/7ca";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrderApp.app/OrderApp";
 			};
 			name = Release;
 		};
@@ -515,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C08CE6D2289C4FE00971D3F /* Build configuration list for PBXProject "7ca" */ = {
+		7C08CE6D2289C4FE00971D3F /* Build configuration list for PBXProject "OrderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C08CE982289C4FE00971D3F /* Debug */,
@@ -524,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C08CE9A2289C4FE00971D3F /* Build configuration list for PBXNativeTarget "7ca" */ = {
+		7C08CE9A2289C4FE00971D3F /* Build configuration list for PBXNativeTarget "OrderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C08CE9B2289C4FE00971D3F /* Debug */,
@@ -533,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C08CE9D2289C4FE00971D3F /* Build configuration list for PBXNativeTarget "7caTests" */ = {
+		7C08CE9D2289C4FE00971D3F /* Build configuration list for PBXNativeTarget "OrderAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C08CE9E2289C4FE00971D3F /* Debug */,
@@ -542,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C08CEA02289C4FE00971D3F /* Build configuration list for PBXNativeTarget "7caUITests" */ = {
+		7C08CEA02289C4FE00971D3F /* Build configuration list for PBXNativeTarget "OrderAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C08CEA12289C4FE00971D3F /* Debug */,

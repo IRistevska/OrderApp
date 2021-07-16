@@ -12,7 +12,7 @@
         <!--ДОБРЕДОЈДОВТЕ 😊-->
         <scene sceneID="DLf-It-Lv6">
             <objects>
-                <viewController id="hyy-vY-Urq" customClass="InitialViewController" customModule="_ca" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hyy-vY-Urq" customClass="InitialViewController" customModule="OrderApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="erC-Ee-JVm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,11 +23,11 @@
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" semanticContentAttribute="playback" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MXy-X7-Slt">
-                                <rect key="frame" x="30" y="438" width="315" height="29"/>
+                                <rect key="frame" x="30" y="423" width="315" height="44"/>
                                 <color key="backgroundColor" red="0.95531078220642718" green="0.79161973971440336" blue="0.25681167652781506" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="🍟 НАРАЧАЈ ДОЗА СРЕЌА! 🍔"/>
+                                <state key="normal" title="🍟 МЕНИ 🍔"/>
                                 <connections>
                                     <action selector="TapedButton:" destination="hyy-vY-Urq" eventType="touchUpInside" id="hag-aP-1Kn"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="XtB-et-H8D"/>
@@ -56,7 +56,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="second" wantsFullScreenLayout="YES" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="_ca" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="second" wantsFullScreenLayout="YES" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="OrderApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -286,7 +286,7 @@
                                 <rect key="frame" x="16" y="226" width="343" height="375"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="stavkaCell" rowHeight="74" id="rp3-Os-55s" customClass="StavkaTableViewCell" customModule="_ca" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="stavkaCell" rowHeight="74" id="rp3-Os-55s" customClass="StavkaTableViewCell" customModule="OrderApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="24.5" width="343" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rp3-Os-55s" id="QdA-CV-1SE">
@@ -371,7 +371,7 @@
         <!--Smetka View Controller-->
         <scene sceneID="qly-WU-K8j">
             <objects>
-                <viewController id="OF0-MZ-520" customClass="SmetkaViewController" customModule="_ca" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="OF0-MZ-520" customClass="SmetkaViewController" customModule="OrderApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SDJ-RH-Nb8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

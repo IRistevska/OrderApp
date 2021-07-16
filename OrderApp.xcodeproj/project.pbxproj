@@ -86,8 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				7C08CE742289C4FE00971D3F /* OrderApp */,
-				7C08CE892289C4FE00971D3F /* 7caTests */,
-				7C08CE942289C4FE00971D3F /* 7caUITests */,
+				7C08CE892289C4FE00971D3F /* OrderAppTests */,
+				7C08CE942289C4FE00971D3F /* OrderAppUITests */,
 				7C08CE732289C4FE00971D3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,23 +119,21 @@
 			path = OrderApp;
 			sourceTree = "<group>";
 		};
-		7C08CE892289C4FE00971D3F /* 7caTests */ = {
+		7C08CE892289C4FE00971D3F /* OrderAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				7C08CE8A2289C4FE00971D3F /* _caTests.swift */,
 				7C08CE8C2289C4FE00971D3F /* Info.plist */,
 			);
-			name = 7caTests;
 			path = OrderAppTests;
 			sourceTree = "<group>";
 		};
-		7C08CE942289C4FE00971D3F /* 7caUITests */ = {
+		7C08CE942289C4FE00971D3F /* OrderAppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				7C08CE952289C4FE00971D3F /* _caUITests.swift */,
 				7C08CE972289C4FE00971D3F /* Info.plist */,
 			);
-			name = 7caUITests;
 			path = OrderAppUITests;
 			sourceTree = "<group>";
 		};
